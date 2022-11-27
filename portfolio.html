@@ -11,35 +11,39 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.min.css"/>
     <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="header">
-       <div class="container header-nav">
-      <nav class="header-nav">
-        <a href="./index.html" class="logo"
-          ><span class="blu">Web</span>Studio</a
-        >
-        <ul class="header-logo">
-          <li class="item"><a href="./index.html" class="nav-link">Студія</a></li>
-          <li class="item">
-            <a href="./portfolio.html" class="nav-link current">Портфоліо</a>
-          </li>
-          <li class="item"><a href="Контакти" class="nav-link">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="ul-regist">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="regist">
-              <svg class="mail-two" wight="16" height="12">
+      <div class="container header__nav">
+        <nav class="header__nav">
+          <a href="./index.html" class="header__logo"
+            ><span class="logo__allocate">Web</span>Studio</a>
+          <ul class="nav__logo">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link ">Студія</a>
+            </li>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link in-line">Портфоліо</a>
+            </li>
+            <li class="nav__item">
+              <a href="Контакти" class="nav__link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header__support">
+          <li class="nav__item">
+            <a href="mailto:info@devstudio.com" class="nav__support">
+              <svg class="support__mail" wight="16" height="12">
               <use href="./images/icons/icons.svg#icon-mail" ></use>
             </svg>info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="regist">
-              <svg class="mail" wight="10" height="16">
+          <li class="nav__item">
+            <a href="tel:+380961111111" class="nav__support">
+              <svg class="support__phone" wight="10" height="16">
               <use href="./images/icons/icons.svg#icon-smartphon" ></use>
             </svg> +38 096 111 11 11</a>
           </li>
@@ -51,15 +55,15 @@
         <div class="container">
         <h1 class="wigualy-hidden">Портфоліо</h1>
         <ul class="filter-list">
-          <li class="iteam"><button type="button" class="btm">Усі</button></li>
-          <li class="iteam"><button type="button" class="btm">Веб-сайти</button></li>
-          <li class="iteam"><button type="button" class="btm">Додатки</button></li>
-          <li class="iteam"><button type="button" class="btm">Дизайн</button></li>
-          <li class="iteam"><button type="button" class="btm">Маркетинг</button></li>
+          <li class="filter-list__iteam"><button type="button" class="filter-list__btn">Усі</button></li>
+          <li class="filter-list__iteam"><button type="button" class="filter-list__btn">Веб-сайти</button></li>
+          <li class="filter-list__iteam"><button type="button" class="filter-list__btn">Додатки</button></li>
+          <li class="filter-list__iteam"><button type="button" class="filter-list__btn">Дизайн</button></li>
+          <li class="filter-list__iteam"><button type="button" class="filter-list__btn">Маркетинг</button></li>
         </ul>
         <ul class="portfolio-cards">
           <li class="item item-cards">
-            <a class="cards" href=""> 
+            <a class="cards-link" href=""> 
               <div class="overlay-team">  
             <img class="cards-overlay"
               src="images/images-portfolio/img.jpg"
@@ -76,7 +80,7 @@
             </a>
           </li>
           <li class="item item-cards">
-            <a class="cards" href="">
+            <a class="cards-link" href="">
               <div class="overlay-team">
             <img
               src="images/images-portfolio/img(1).jpg"
@@ -94,7 +98,7 @@
             </a>
           </li>
           <li class="item item-cards">
-            <a class="cards" href="">
+            <a class="cards-link" href="">
               <div class="overlay-team">
             <img
               src="images/images-portfolio/img(2).jpg"
@@ -112,7 +116,7 @@
             </a>
           </li>
           <li class="item item-cards">
-            <a class="cards" href="">
+            <a class="cards-link" href="">
               <div class="overlay-team">
             <img
               src="images/images-portfolio/img(3).jpg"
@@ -130,7 +134,7 @@
             </a>
           </li>
           <li class="item item-cards">
-            <a class="cards" href="">
+            <a class="cards-link" href="">
               <div class="overlay-team">
             <img
               src="images/images-portfolio/img(4).jpg"
@@ -148,7 +152,7 @@
             </a>
           </li>
           <li class="item item-cards">
-            <a class="cards" href="">
+            <a class="cards-link" href="">
               <div class="overlay-team">
             <img
               src="images/images-portfolio/img(5).jpg"
@@ -166,7 +170,7 @@
             </a>
           </li>
           <li class="item item-cards">
-            <a class="cards" href="">
+            <a class="cards-link" href="">
               <div class="overlay-team">
             <img
               src="images/images-portfolio/img(6).jpg"
@@ -184,7 +188,7 @@
             </a>
           </li>
           <li class="item item-cards">
-            <a class="cards" href="">
+            <a class="cards-link" href="">
               <div class="overlay-team">
             <img
               src="images/images-portfolio/img(7).jpg"
@@ -202,7 +206,7 @@
             </a>
           </li>
           <li class="item item-cards">
-            <a class="cards" href="">
+            <a class="cards-link" href="">
               <div class="overlay-team">
             <img
               src="images/images-portfolio/img(8).jpg"
@@ -223,73 +227,73 @@
       </section>
     </main>
      <footer class="footer">
-      <div class="container footer-section">
-        <div>
-        <a href="./index.html" class="footer-logo"
-          ><span class="blu">Web</span>Studio</a>
+      <div class="container footer__section">
+        <div class="footer__adress-nav-box">
+        <a href="./index.html" class="footer__logo"
+          ><span class="logo__allocate">Web</span>Studio</a>
         <address>
-          <ul class="adress-nav">
-            <li class="iteam">
+          <ul class="footer__adress-nav">
+            <li class="adress-nav__iteam">
               <a
                 href="https://goo.gl/maps/qV7wrGFVNQysBkzQ6"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="adress"
+                class="adress-nav__iteam"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li class="iteam">
-              <a href="mailto:info@devstudio.com" class="footer-regis"
+            <li class="adress-nav__iteam">
+              <a href="mailto:info@devstudio.com" class="adress-nav__support"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="iteam">
-              <a href="tel:+380961111111" class="footer-regis"
+            <li class="adress-nav__iteam">
+              <a href="tel:+380961111111" class="adress-nav__support"
                 >+38 096 111 11 11</a
               >
             </li>
           </ul>
         </address>
         </div>
-      <div class="social-links">
-        <h2 class="social-links-text">приєднуйтесь</h2>
-        <ul class="team-social">
+      <div class="footer__social-links">
+        <h2 class="social-links__text">приєднуйтесь</h2>
+        <ul class="social-links__list">
                   <li>
-                    <a class="footer-social" href="">
-                    <svg class="team-social-icon" wight="20" height="20">
+                    <a class="social-links__link" href="">
+                    <svg class="social-links__icon" wight="20" height="20">
                       <use href="./images/icons/icons.svg#icon-instagram" ></use>
                     </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="footer-social" href="">
-                    <svg class="team-social-icon" wight="20" height="20">
+                    <a class="social-links__link" href="">
+                    <svg class="social-links__icon" wight="20" height="20">
                       <use href="./images/icons/icons.svg#icon-twitter " ></use>
                     </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="footer-social" href="">
-                    <svg class="team-social-icon" wight="20" height="20">
+                    <a class="social-links__link" href="">
+                    <svg class="social-links__icon" wight="20" height="20">
                       <use href="./images/icons/icons.svg#icon-facebook" ></use>
                     </svg>
                     </a>
                   </li>
                   <li>
-                    <a class="footer-social" href="">
-                    <svg class="team-social-icon" wight="20" height="20">
+                    <a class="social-links__link" href="">
+                    <svg class="social-links__icon" wight="20" height="20">
                       <use href="./images/icons/icons.svg#linkedin" ></use>
                     </svg>
                     </a>
                   </li>
                 </ul>
       </div>
-      <div class="mail-form">
-        <h2 class="social-links-text ">Підпишіться на розсилку</h2>
-        <div class="footer-mail-form">
+      <div class="footer__mailing-list">
+        <h2 class="mailing-list__text ">Підпишіться на розсилку</h2>
+        <div class="mailing-list__form">
                 <form action="">
-                  <input class="fotter-mail" type="email" placeholder="E-mail">
-                  <button class="foter-btn" type="submit">Підписатися <svg class="svg-teleg" width="24" height="24">
+                  <input class="mailing-list__mail" type="email" placeholder="E-mail">
+                  <button class="mailing-list__btn" type="submit">Підписатися <svg class="mailing-list__icon" width="24" height="24">
                     <use href="./images/icons/icons.svg#icon-icon-send"></use>
                   </svg></button>
 

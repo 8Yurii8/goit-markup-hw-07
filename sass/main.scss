@@ -1,0 +1,45 @@
+// utils
+@import './utils/variables';
+// utils
+
+// base style
+@import './base/base';
+@import './base/reset';
+@import './base/image';
+// base style
+
+//  component
+@import './component/container';
+@import './component/sections';
+
+// header
+@import './component/header';
+// header
+
+// main
+@import './component/hero';
+@import './component/features';
+@import './component/wo-we-do';
+@import './component/our-team';
+@import './component/clients';
+// main
+
+// footer
+@import './component/footer';
+@import './component/footer__logo-adress-nav';
+@import './component/footer__social-links';
+@import './component/footer__mailing-list';
+// footer
+
+// modal
+@import './component/backdrop';
+@import './component/modal';
+// modal
+
+// portfolio
+@import './component/portfolio-filter-list';
+@import './component/portfolio-cards';
+
+//  component
+
+
