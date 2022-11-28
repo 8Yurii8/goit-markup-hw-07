@@ -10,51 +10,22 @@
     background-color: var(--btm-portf-back);
 }
 
-.team-cards {
+.our-team__cards {
     display: flex;
 }
 
-.team-cards .iteam {
+.our-team__cards .our-team__iteam {
     margin-left: 30px;
     width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+
+    &:first-child {
+            margin-left: 0px;
+        }
 }
 
-.team-cards .iteam:first-child {
-    margin-left: 0px;
-}
-
-.overlay-team {
-    position: relative;
-    overflow: hidden;
-}
-
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-
-    padding: 63px 24px;
-    background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(100%);
-    transition: transform var(--animation-overlay);
-}
-
-.overlay-text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: calc(28 / 18);
-    letter-spacing: 0.03em;
-    color: var(--color-with);
-}
-
-.item-cards:hover .overlay {
-    transform: translateY(0%);
-}
 
 .team-name {
     margin-bottom: 10px;
@@ -100,7 +71,6 @@
     &:focus {color: var(--color-with);
         background-color: var(--icons-border-color);}
 }
-
 
 
 .team-social-icon {

@@ -5,12 +5,12 @@
     padding:200px 0px ;
     text-align: center;
     background-color:var(--bg-img);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/baground.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/baground.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.hero-h {
+.hero__title {
     color: var(--color-with);
     font-weight: 900;
     font-size: 44px;
@@ -24,7 +24,7 @@
      }
 
 
-.hero-btm {
+.hero__btm {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
