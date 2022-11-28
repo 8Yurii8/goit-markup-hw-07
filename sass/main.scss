@@ -1,11 +1,11 @@
 // utils
 @import './utils/variables';
+@import './utils/vars';
 // utils
 
 // base style
 @import './base/base';
 @import './base/reset';
-@import './base/image';
 // base style
 
 //  component
@@ -39,6 +39,10 @@
 // portfolio
 @import './component/portfolio-filter-list';
 @import './component/portfolio-cards';
+@import './component/cards';
+
+
+
 
 //  component
 
